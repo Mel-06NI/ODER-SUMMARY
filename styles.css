@@ -5,21 +5,25 @@
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    /* display: flex;
+    justify-card: center;
+    align-items: center; */
     min-height: 100vh;
     background: #E0E8FF;
     font-family: 'Red Hat Display', sans-serif;
 }
 
 .container {
-    position: relative;
-    width: 375px;
-    min-height: 709px;
-    display: flex;
+
+    padding: 71px 24px 71px 24px;
+    background-image: url('images/pattern-background-mobile.svg ');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
+    width: 100%;
+    /* display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; */
     overflow: hidden;
 }
 
@@ -36,33 +40,38 @@ body {
 }
 
 .Card-image {
-    width: 327px;
-    margin-top: 100px;
+    width: 100%;
     border-radius: 20px 20px 0 0;
     z-index: 2;
 }
 
-.container1 {
-    width: 327px;
+.card {
+
     background: white;
-    border-radius: 0 0 20px 20px;
-    padding: 32px 24px;
+    border-radius: 20px;
+    overflow: hidden;
+    min-width: 327px;
+    max-width: 450px;
+}
+
+.card-content {
+    padding: 24px 32px 24px 32px;
     display: flex;
+    gap: 24px;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    gap: 24px;
-    z-index: 2;
 }
 
-.container1 h1 {
+h1 {
     color: #1F2E55;
     font-size: 22px;
+    font-weight: 900;
 }
 
-.container1 > p {
+p {
     color: #717FA6;
-    font-size: 15px;
+    width: 300px;
     line-height: 1.6;
 }
 
@@ -73,7 +82,6 @@ body {
     padding: 16px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 
 .left-container img {
@@ -102,7 +110,6 @@ body {
     font-size: 14px;
     font-weight: 700;
     cursor: pointer;
-    text-decoration: underline;
 }
 
 button {
@@ -121,4 +128,6 @@ h4 {
     color: #717FA6;
     font-size: 15px;
     cursor: pointer;
+     font-weight: 900; 
+
 }
