@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #E0E8FF;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.container {
+    position: relative;
+    width: 375px;
+    min-height: 709px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.hero {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.hero img {
+    width: 100%;
+    display: block;
+}
+
+.Card-image {
+    width: 327px;
+    margin-top: 100px;
+    border-radius: 20px 20px 0 0;
+    z-index: 2;
+}
+
+.container1 {
+    width: 327px;
+    background: white;
+    border-radius: 0 0 20px 20px;
+    padding: 32px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 24px;
+    z-index: 2;
+}
+
+.container1 h1 {
+    color: #1F2E55;
+    font-size: 22px;
+}
+
+.container1 > p {
+    color: #717FA6;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.left-container {
+    width: 279px;
+    background: #F7F9FF;
+    border-radius: 11px;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-container img {
+    width: 48px;
+    height: 48px;
+}
+
+.plan-text {
+    flex: 1;
+    margin-left: 16px;
+    text-align: left;
+}
+
+.plan-text h2 {
+    color: #1F2E55;
+    font-size: 15px;
+}
+
+.plan-text p {
+    color: #717FA6;
+    font-size: 15px;
+}
+
+.change {
+    color: #382AE1;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+button {
+    width: 279px;
+    height: 50px;
+    border: none;
+    border-radius: 11px;
+    background: #382AE1;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+h4 {
+    color: #717FA6;
+    font-size: 15px;
+    cursor: pointer;
+}
